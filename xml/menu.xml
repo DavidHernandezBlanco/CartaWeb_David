@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <platos plato="Tapas">
+      <nombre>Anchoas con tomate</nombre>
+      <precio>1,80€</precio>
+      <descripcion>Anchoas con tomate (und)</descripcion>
+      <calorias>871 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/fish-fins-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Tapas">
+      <nombre>Croquetas de pollo de corral y jamón ibérico</nombre>
+      <precio>1,80€</precio>
+      <descripcion>Croquetas de pollo de corral y jamón ibérico (und)</descripcion>
+      <calorias>238 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Tapas">
+      <nombre>Buñuelos de bacalao</nombre>
+      <precio>1,90€</precio>
+      <descripcion>Buñuelos de bacalao (und)</descripcion>
+      <calorias>100 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/fish-fins-solid.svg"></item>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Tapas">
+      <nombre>Ensaladilla rusa</nombre>
+      <precio>6,50€</precio>
+      <descripcion>Ensaladilla rusa</descripcion>
+      <calorias>550 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/fish-fins-solid.svg"></item>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+        <item src="./img/seedling-solid.svg"></item>
+        <item src="./img/carrot-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Tapas">
+      <nombre>Patatas bravas</nombre>
+      <precio>5,00€</precio>
+      <descripcion>Patatas bravas</descripcion>
+      <calorias>250 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/seedling-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Ensaladas">
+      <nombre>Tomate, ventresca y cebollitas</nombre>
+      <precio>9,00€</precio>
+      <descripcion>Tomate, ventresca y cebollitas</descripcion>
+      <calorias>136 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/fish-fins-solid.svg"></item>
+        <item src="./img/carrot-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Ensaladas">
+      <nombre>Burrata, rúcula y tomate seco</nombre>
+      <precio>9,00€</precio>
+      <descripcion>Burrata, rúcula y tomate seco</descripcion>
+      <calorias>263 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+        <item src="./img/carrot-solid.svg"></item>
+        <item src="./img/seedling-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Ensaladas">
+      <nombre>Ensalada de pasta y verduritas</nombre>
+      <precio>9,00€</precio>
+      <descripcion>Ensalada de pasta y verduritas</descripcion>
+      <calorias>358 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+        <item src="./img/carrot-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Arroces">
+      <nombre>Pollo de corral y setas</nombre>
+      <precio>12,00€</precio>
+      <descripcion>Pollo de corral y setas</descripcion>
+      <calorias>258 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/burger-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Arroces">
+      <nombre>Marinero</nombre>
+      <precio>12,00€</precio>
+      <descripcion>Marinero</descripcion>
+      <calorias>660 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/fish-fins-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Arroces">
+      <nombre>Paella de marisco</nombre>
+      <precio>23,00€</precio>
+      <descripcion>Arroz, pimiento, gambas, mejillones</descripcion>
+      <calorias>780 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/fish-fins-solid.svg"></item>
+       <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Arroces">
+      <nombre>Arroz negro</nombre>
+      <precio>20,00€</precio>
+      <descripcion>Arroz, tinta de calamar</descripcion>
+      <calorias>700 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Carnes y Pescados">
+      <nombre>Entrecot argentino</nombre>
+      <precio>16,00€</precio>
+      <descripcion>Entrecot argentino (375gr.)</descripcion>
+      <calorias>238 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/burger-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Carnes y Pescados">
+      <nombre>Embutidos de toras a la parrilla</nombre>
+      <precio>9,00€</precio>
+      <descripcion>Embutidos de toras a la parrilla</descripcion>
+      <calorias>200 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/burger-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Carnes y Pescados">
+      <nombre>Chuletitas de cordero de toras</nombre>
+      <precio>15,00€</precio>
+      <descripcion>Chuletitas de cordero de toras</descripcion>
+      <calorias>300 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/burger-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Bocadillos y Hamburguesas">
+      <nombre>Chivito</nombre>
+      <precio>6,00€</precio>
+      <descripcion>Lomo, lechuga, mayonesa, bacón y tomate</descripcion>
+      <calorias>505 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/burger-solid.svg"></item>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Bocadillos y Hamburguesas">
+      <nombre>Calamares</nombre>
+      <precio>6,00€</precio>
+      <descripcion>Calamares</descripcion>
+      <calorias>485 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/fish-fins-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Bocadillos y Hamburguesas">
+      <nombre>Ternera</nombre>
+      <precio>7,00€</precio>
+      <descripcion>Ternera, cebolla caramelizada y queso brie</descripcion>
+      <calorias>356 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/carrot-solid.svg"></item>
+        <item src="./img/burger-solid.svg"></item>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Bocadillos y Hamburguesas">
+      <nombre>Pollo</nombre>
+      <precio>6,00€</precio>
+      <descripcion>Pollo, huevo, mayonesa Hoisin y lechuga</descripcion>
+      <calorias>593 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/burger-solid.svg"></item>
+       <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Postres">
+      <nombre>Tarta de queso</nombre>
+      <precio>5,00€</precio>
+      <descripcion>Tarta de queso</descripcion>
+      <calorias>469 Kcal</calorias>
+      <caracteristicas>
+       <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Postres">
+      <nombre>Coulant de chocolate</nombre>
+      <precio>5,00€</precio>
+      <descripcion>Coulant de chocolate</descripcion>
+      <calorias>689 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+        <item src="./img/seedling-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+    <platos plato="Postres">
+      <nombre>Tarta de limón</nombre>
+      <precio>8,00€</precio>
+      <descripcion>Mantequilla, almendra, huevo, limón y azúcar</descripcion>
+      <calorias>388 Kcal</calorias>
+      <caracteristicas>
+        <item src="./img/wheat-awn-circle-exclamation-solid.svg"></item>
+      </caracteristicas>
+    </platos>
+</menu>
