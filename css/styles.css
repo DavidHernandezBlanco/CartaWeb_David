@@ -152,6 +152,26 @@ div.et_pb_section.et_pb_section_4 {
     color: white;
 }
 
+.scaleHover {
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.scaleHover:hover {
+    transform: scale(1.15);
+}
+
+
+/* Barra de scroll lateral */
+
+body::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(31, 30, 30, 0.4);
+}
+
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2 {

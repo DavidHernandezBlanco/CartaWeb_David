@@ -87,21 +87,22 @@ if (file_exists('xml/menu.xml')) {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<!-- Platos -->
 <div>
-    <h1 class="center padding">
+    <h1 class="center padding scaleHover">
         <u>Menú Restaurante David</u>
     </h1>
 </div>
 <div class="row-c">
     <div id='car' class="column-2 padding">
         <?php
-        echo "<h1 ><u>Carnes y Pescados</u></h1>";
+        echo "<h1 class='scaleHover'><u>Carnes y Pescados</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Carnes y Pescados') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
             }
             }
@@ -111,13 +112,13 @@ if (file_exists('xml/menu.xml')) {
 <div class="row-c">
     <div id='ens' class="column-2 padding">
         <?php
-        echo "<h1><u>Ensaladas</u></h1>";
+        echo "<h1 class='scaleHover'><u>Ensaladas</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Ensaladas') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
             }
             }
@@ -127,13 +128,13 @@ if (file_exists('xml/menu.xml')) {
 <div class="row-c">
     <div id='arr' class="column-2 padding">
         <?php
-        echo "<h1><u>Arroces</u></h1>";
+        echo "<h1 class='scaleHover'><u>Arroces</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Arroces') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
             }
             }
@@ -143,13 +144,13 @@ if (file_exists('xml/menu.xml')) {
 <div class="row-c">
     <div id='boc' class="column-2 padding">
         <?php
-        echo "<h1><u>Bocadillos y Hamburguesas</u></h1>";
+        echo "<h1 class='scaleHover'><u>Bocadillos y Hamburguesas</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Bocadillos y Hamburguesas') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
             }
             }
@@ -159,13 +160,13 @@ if (file_exists('xml/menu.xml')) {
 <div class="row-c">
     <div id='tap' class="column-2 padding">
         <?php
-        echo "<h1><u>Tapas</u></h1>";
+        echo "<h1 class='scaleHover'><u>Tapas</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Tapas') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
                 
             }
@@ -176,13 +177,13 @@ if (file_exists('xml/menu.xml')) {
 <div class="row-c">
     <div id='pos' class="column-2 padding">
         <?php
-        echo "<h1><u>Postres</u></h1>";
+        echo "<h1 class='scaleHover'><u>Postres</u></h1>";
         foreach($menu->platos as $platos){
             if ($platos['plato']=='Postres') {
-                echo '<h3>'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
-                echo '<h5 class="desc">'.$platos->descripcion.'</h5>';
+                echo '<h3 class="scaleHover">'.$platos->nombre.'</h3>'.'<span> ('.$platos->calorias.') </span>'."-----------------------------------".'<span>'.$platos->precio.'</span>';
+                echo '<h5 class="desc scaleHover">'.$platos->descripcion.'</h5>';
                 foreach($platos->caracteristicas->item as $item) {
-                    echo "<img class='alimentos' src=".$item['src']." alt=''>";
+                    echo "<img class='alimentos scaleHover' src=".$item['src']." alt=''>";
                 }
             }
             }
