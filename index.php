@@ -31,7 +31,7 @@ if (file_exists('xml/menu.xml')) {
 <!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="./">Menu</a>
+    <a class="navbar-brand scaleHover" href="./">Menu</a>
     <button
       class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,24 +39,24 @@ if (file_exists('xml/menu.xml')) {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#car">Carnes y Pescados</a>
+          <a class="nav-link active scaleHover" aria-current="page" href="#car">Carnes y Pescados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#ens">Ensaladas</a>
+          <a class="nav-link scaleHover" href="#ens">Ensaladas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#arr">Arroces</a>
+          <a class="nav-link scaleHover" href="#arr">Arroces</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#boc">Bocadillos y Hamburguesas</a>
+          <a class="nav-link scaleHover" href="#boc">Bocadillos y Hamburguesas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#tap">Tapas</a>
+          <a class="nav-link scaleHover" href="#tap">Tapas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#pos">Postres</a>
+          <a class="nav-link scaleHover" href="#pos">Postres</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item scaleHover">
           <a class="nav-link disabled"
             >Disabled</a
           >
@@ -192,30 +192,30 @@ if (file_exists('xml/menu.xml')) {
 </div>
 <div class="et_pb_section et_pb_section_4 et_pb_with_background column-1 center">
 	<div>
-        <h2 class="et_pb_module_header padding">HAZ TU RESERVA</h2>
-        <div><p>¡Te estamos esperando!</p></div>
+        <h2 class="et_pb_module_header padding scaleHover">HAZ TU RESERVA</h2>
+        <div class="scaleHover"><p>¡Te estamos esperando!</p></div>
     </div>
 	<div>
-        <a class="et_pb_button et_pb_promo_button padding" href="https://thesteakhouse.myrestoo.net/es/reservar">RESERVA AQUÍ</a>
+        <a class="et_pb_button et_pb_promo_button padding scaleHover" href="https://thesteakhouse.myrestoo.net/es/reservar">RESERVA AQUÍ</a>
     </div>
 <div>
 <div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.306112945396!2d2.1634482618692528!3d41.3891580806623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f3275cbf93%3A0xd21ab68683007905!2sRambla%20de%20Catalunya%2C%2027%2C%2008007%20Barcelona!5e0!3m2!1ses!2ses!4v1649019602358!5m2!1ses!2ses" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <div class="footer">
-    <p>
+    <p class="scaleHover">
         <strong>CONTACTO</strong>
     </p>
-    <p>
+    <p class="scaleHover">
         <a href="davidhb2003@gmail.com">davidhb2003@gmail.com</a>
     </p>
-    <p>
+    <p class="scaleHover">
         <span>+34 930 072 593</span>
     </p>
-    <p>
+    <p class="scaleHover">
         <span>Rambla de Catalunya, 27</span>
     </p>
-    <p>
+    <p class="scaleHover">
         <span>08007, Barcelona, España</span>
     </p>
 </div>
